@@ -1,6 +1,6 @@
 # My Topic Google Doodle
 
-50+ words about your Google Doodle.
+For turtles, I just wanted to do stuff with one of my favorite animals. I would like to expand further into many different turtles, but I can stick with sea turtles to get something 'on board'. That said, some small clickable elements on a coral reef that a sea turtle swims around in could be a good start if I can't get a game from the javascript .
 
 ## Collage
 

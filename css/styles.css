@@ -9,11 +9,35 @@
     outline: 1px dotted black;
 }
 
+#stage {
+  position: relative;
+
+  width: 601px;
+  height: 582px;
+  z-index: -2;
+}
+
+/* turtle itslef */
+#stage svg {
+  position: absolute;
+
+  top: 0;
+  left: 100px;
+  padding-bottom: 500px;
+  z-index: -1;
+}
+
+/* input[type="text"], #search {
+  position: absolute;
+  z-index: 10; 
+} */
+
+
 /* Doodle Stage */
 #stage {
   background: #ccc;
-  height: 300px;
-  width: 600px;
+  height: 400px;
+  width: 800px;
 }
 
 #heart1 {

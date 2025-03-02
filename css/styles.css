@@ -27,8 +27,8 @@
 #fullturtle {
   /* background-color: red; */
   position: relative;
-  bottom: 300px; /* Adjust as needed */
-  left: 100px; /* Adjust as needed */
+  bottom: 400px; 
+  left: 100px; 
   /* z-index: -8; */
   
 }
@@ -40,34 +40,74 @@
 
 .square1 {
   position: relative;
-  right: 500px;
-  bottom: 587px;
+  right: 525px;
+  bottom: 589px;
   border: solid pink 3px;
   fill: red;
   width: 100px;
   height: 100px;
-  z-index: 1;
+  z-index: 2;
 }
 
 
-/* .square2 {
+.square2 {
   position: relative;
-  left: 171px;
-  top: 295px;
+  left: 200px;
+  bottom: 696px;
   border: solid rgb(97, 171, 255) 3px;
   width: 100px;
   height: 100px;
-} */
+  z-index: 3;
+}
 
-/* .square3
-.square4
-.square5
-.square6
+.square3 {
+  position: relative;
+  left: 200px;
+  bottom: 696px;
+  border: solid rgb(97, 171, 255) 3px;
+  width: 100px;
+  height: 100px;
+  z-index: 4;
+}
 
-.seaweed */
+.square4 {
+  position: relative;
+  left: 200px;
+  bottom: 696px;
+  border: solid rgb(97, 171, 255) 3px;
+  width: 100px;
+  height: 100px;
+  z-index: 5;
+}
 
+.square5 {
+  position: relative;
+  left: 200px;
+  bottom: 696px;
+  border: solid rgb(97, 171, 255) 3px;
+  width: 100px;
+  height: 100px;
+  z-index: 6;
+}
 
+.square6 {
+  position: relative;
+  left: 200px;
+  bottom: 696px;
+  border: solid rgb(97, 171, 255) 3px;
+  width: 100px;
+  height: 100px;
+  z-index: 7;
+}
 
+.seaweed {
+  position: relative;
+  right: 540px;
+  bottom: 696px;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
 
 
 /* Doodle Stage */

@@ -22,9 +22,18 @@
   position: absolute;
 
   top: 0;
-  left: 100px;
-  padding-bottom: 500px;
+
+
   z-index: -1;
+}
+
+#fullturtle {
+  /* background-color: red; */
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: 100px; /* Adjust as needed */
+  z-index: -1;
+  
 }
 
 /* input[type="text"], #search {
@@ -32,6 +41,17 @@
   z-index: 10; 
 } */
 
+.square1 {
+  position: relative;
+  left: 800;
+  top: 400;
+  border: solid pink 3px;
+  fill: red;
+  width: 100px;
+  height: 100px;
+
+
+}
 
 /* Doodle Stage */
 #stage {

@@ -14,25 +14,22 @@
 
   width: 601px;
   height: 582px;
-  z-index: -2;
+  z-index: -10;
 }
 
 /* turtle itslef */
-#stage svg {
+/* #stage svg {
   position: absolute;
-
   top: 0;
-
-
   z-index: -1;
-}
+} */
 
 #fullturtle {
   /* background-color: red; */
-  position: absolute;
-  top: 50px; /* Adjust as needed */
+  position: relative;
+  bottom: 300px; /* Adjust as needed */
   left: 100px; /* Adjust as needed */
-  z-index: -1;
+  /* z-index: -8; */
   
 }
 
@@ -43,15 +40,35 @@
 
 .square1 {
   position: relative;
-  left: 800;
-  top: 400;
+  right: 500px;
+  bottom: 587px;
   border: solid pink 3px;
   fill: red;
   width: 100px;
   height: 100px;
-
-
+  z-index: 1;
 }
+
+
+/* .square2 {
+  position: relative;
+  left: 171px;
+  top: 295px;
+  border: solid rgb(97, 171, 255) 3px;
+  width: 100px;
+  height: 100px;
+} */
+
+/* .square3
+.square4
+.square5
+.square6
+
+.seaweed */
+
+
+
+
 
 /* Doodle Stage */
 #stage {

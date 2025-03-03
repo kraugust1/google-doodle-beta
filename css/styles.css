@@ -43,7 +43,7 @@
   right: 525px;
   bottom: 589px;
   border: solid pink 3px;
-  fill: red;
+  /* fill: red; */
   width: 100px;
   height: 100px;
   z-index: 2;
@@ -51,23 +51,24 @@
 
 
 .square2 {
+  scale: 2;
   position: relative;
   left: 200px;
   bottom: 696px;
-  border: solid rgb(97, 171, 255) 3px;
   width: 100px;
   height: 100px;
   z-index: 3;
 }
 
 .square3 {
+  scale: 2;
   position: relative;
   left: 200px;
   bottom: 696px;
-  border: solid rgb(97, 171, 255) 3px;
   width: 100px;
   height: 100px;
   z-index: 4;
+  transform: scaleX(-1);
 }
 
 .square4 {

@@ -5,9 +5,9 @@
   * Outline Elements
 */
 
-* {
+/* * {
     outline: 1px dotted black;
-}
+} */
 
 #stage {
   position: relative;
@@ -41,74 +41,100 @@
 .square1 {
   position: relative;
   right: 525px;
-  bottom: 589px;
-  border: solid pink 3px;
-  /* fill: red; */
+  bottom: 660px;
+  fill: pink;
   width: 100px;
   height: 100px;
-  z-index: 2;
+  z-index: 102;
+  scale: 2.5;
+}
+
+.square1 > path:not(.g-coral1) {
+  fill: darksalmon;
+}
+.g-coral1 {
+  stroke: darksalmon
 }
 
 
 .square2 {
-  scale: 2;
+  scale: 1.5;
   position: relative;
   left: 200px;
   bottom: 696px;
   width: 100px;
   height: 100px;
-  z-index: 3;
+  z-index: 103;
+  stroke: rgb(128, 48, 48);
+}
+.square2 > path:not(.square2) {
+  fill: rgb(224, 158, 158);
 }
 
 .square3 {
-  scale: 2;
+  scale: 1.75;
   position: relative;
   left: 200px;
   bottom: 696px;
   width: 100px;
   height: 100px;
-  z-index: 4;
+  z-index: 104;
   transform: scaleX(-1);
+  stroke:rgb(153, 110, 46);
+}
+.square3 > path:not(.square3) {
+  fill: rgb(241, 204, 135);
 }
 
 .square4 {
   position: relative;
-  left: 200px;
-  bottom: 696px;
-  border: solid rgb(97, 171, 255) 3px;
+  left: 210px;
+  bottom: 746px;
   width: 100px;
   height: 100px;
-  z-index: 5;
+  z-index: 105;
+  scale: 2.5;
+  stroke:purple;
+}
+.square4 > path:not(.square4) {
+  fill: plum;
 }
 
 .square5 {
   position: relative;
-  left: 200px;
-  bottom: 696px;
-  border: solid rgb(97, 171, 255) 3px;
+  left: 190px;
+  bottom: 780px;
   width: 100px;
   height: 100px;
-  z-index: 6;
+  z-index: 106;
+  stroke: rgb(11, 52, 65);
+  fill: rgb(24, 178, 189);
+  scale:3;
+  cursor: pointer;
+  pointer-events: all;
+}
+.sea-tentacle {
+  stroke: green;
+  fill: lightblue;
+  cursor: pointer;
+  pointer-events: all;
 }
 
 .square6 {
   position: relative;
   left: 200px;
-  bottom: 696px;
-  border: solid rgb(97, 171, 255) 3px;
+  bottom: 735px;
   width: 100px;
   height: 100px;
-  z-index: 7;
+  z-index: 107;
+  scale: 2.5;
+  fill: rgb(243, 219, 5);
+}
+.square6 > path:not(.square6) {
+  stroke: rgb(155, 90, 117);
 }
 
-.seaweed {
-  position: relative;
-  right: 540px;
-  bottom: 696px;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-}
+
 
 
 /* Doodle Stage */

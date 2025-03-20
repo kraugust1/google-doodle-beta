@@ -1,6 +1,9 @@
 # My Topic Google Doodle
 
-For turtles, I just wanted to do stuff with one of my favorite animals. I would like to expand further into many different turtles, but I can stick with sea turtles to get something 'on board'. That said, some small clickable elements on a coral reef that a sea turtle swims around in could be a good start if I can't get a game from the javascript .
+For turtles, I just wanted to do stuff with one of my favorite animals. I would like to expand further into many different turtles, but I can stick with sea turtles to get something 'on board'. That said, some small clickable elements on a coral reef that a sea turtle swims around in could be a good start if I can't get a game from the javascript.
+
+*[testing versions](https://codepen.io/collection/eYYNqE) 
+^^yeah, nothing works, I can't make clickable events due to the <main> literally covering everything and being the only thing clickable, also z-indexing does not work at all, I am too angry to be angry. I am just done for now. Thanks for nothing 'teach.
 
 ## Collage
 
